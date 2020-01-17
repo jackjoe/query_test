@@ -1,0 +1,3 @@
+<%= form_for @conn, page_path(@conn, :create), fn _ -> %>
+  <%= submit "Trigger import" %>
+<% end %>
