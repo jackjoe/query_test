@@ -8,5 +8,7 @@ To reproduce the issue, just run the project and then the main (and only) method
 mix deps.get
 mix ecto.migrate
 iex -S mix phx.server
+
+# in iex
 QueryTest.massive_run()
 ```
